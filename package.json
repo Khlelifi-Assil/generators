@@ -1,0 +1,65 @@
+{
+  "name": "sugar-generate",
+  "version": "0.1.6",
+  "description": "Auto generate OAS 3.0 REST + GraphQL APIs (Node + MongoDB)",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugarkubes/generators"
+  },
+  "bin": {
+    "sugar-generate": "./index.js"
+  },
+  "keywords": [
+    "sugar",
+    "sugarkubes",
+    "generator",
+    "api generator",
+    "developer tools",
+    "mongodb",
+    "mongoose",
+    "mongo",
+    "swagger",
+    "swagger-generate",
+    "generator",
+    "yeoman",
+    "yeoman-generator",
+    "express",
+    "swagger-ui",
+    "openapi",
+    "oas",
+    "oasv3",
+    "oas 3.0",
+    "rest",
+    "graphql",
+    "apollo"
+  ],
+  "author": "wrannaman",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "eslint-plugin-react": "^7.13.0",
+    "js-beautify": "^1.9.0-beta5",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "mocha": "^6.1.4",
+    "prettier": "^1.14.3",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1",
+    "prettier-stylelint": "^0.4.2",
+    "request": "^2.88.0"
+  }
+}

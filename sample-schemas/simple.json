@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "name": {
+      "type": "String",
+      "default": ""
+    },
+    "alive": {
+      "type": "Boolean",
+      "default": false
+    },
+    "age": {
+      "type": "Number",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Dev Notes
+
+```sh
+NODE_ENV=dev nodemon index.js \
+-s ./sample-schemas/auth.json \
+-d ../auth
+```
