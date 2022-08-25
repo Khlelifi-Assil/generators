@@ -1,14 +1,5 @@
 # Instantly Generate Rest & GraphQL APIs 🔥
 
-[![Follow on Twitter](https://img.shields.io/twitter/follow/andrewpierno.svg?label=follow)](https://twitter.com/andrewpierno)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/sugarkubes/generators.svg)](http://isitmaintained.com/project/sugarkubes/generators "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/sugarkubes/generators.svg)](http://isitmaintained.com/project/sugarkubes/generators "Percentage of issues still open")
-[![npm package](https://img.shields.io/npm/v/sugar-generate/latest.svg)](https://www.npmjs.com/package/sugar-generate)
-[![NPM Downloads](https://img.shields.io/npm/dt/sugar-generate.svg?style=flat)](https://npmcharts.com/compare/sugar-generate?minimal=true)
-
-
-![Sugar Generator - API Edition](https://github.com/sugarkubes/generators/blob/master/logo.png?raw=true)
-
 
 ## Install
 
@@ -17,10 +8,6 @@ npm i -g sugar-generate
 ```
 
 ## Prereqs
-
-- have mongodb [installed and running](https://treehouse.github.io/installation-guides/mac/mongo-mac.html)!
-- have nodejs installed
-
 if you're running mongodb locally and using the docker container, make sure to start mongo using
 
 ```sh
@@ -149,8 +136,6 @@ npm start
 docker build -t myMonkeys:0.1.0 .
 ```
 
-![running](https://github.com/sugarkubes/generators/blob/master/start.png?raw=true)
-![oas docs](https://github.com/sugarkubes/generators/blob/master/monkey.png?raw=true)
 
 ## Features 🙉
 - Generates simple Nodejs code
@@ -193,10 +178,6 @@ docker build -t myMonkeys:0.1.0 .
 
 
 ## Graphql support
-
-![graphql mutation](https://github.com/sugarkubes/generators/blob/master/graphql-mutation.png?raw=true)
-
-![graphql schema](https://github.com/sugarkubes/generators/blob/master/graphql-schema.png?raw=true)
 
 
 graphql is supported and gets created by default so you can choose between rest and graphql
