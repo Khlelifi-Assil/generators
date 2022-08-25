@@ -1,14 +1,5 @@
 # Instantly Generate React Components 🔥
 
-[![Follow on Twitter](https://img.shields.io/twitter/follow/andrewpierno.svg?label=follow)](https://twitter.com/andrewpierno)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/sugarkubes/generators.svg)](http://isitmaintained.com/project/sugarkubes/generators "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/sugarkubes/generators.svg)](http://isitmaintained.com/project/sugarkubes/generators "Percentage of issues still open")
-[![npm package](https://img.shields.io/npm/v/sugar-generate/latest.svg)](https://www.npmjs.com/package/sugar-generate)
-[![NPM Downloads](https://img.shields.io/npm/dt/sugar-generate.svg?style=flat)](https://npmcharts.com/compare/sugar-generate?minimal=true)
-
-
-![Sugar Generator - API Edition](https://github.com/sugarkubes/generators/blob/master/logo.png?raw=true)
-
 
 ## Install
 
@@ -38,10 +29,9 @@ npm start
 docker build -t myMonkeys:0.1.0 .
 ```
 
-![running](https://github.com/sugarkubes/generators/blob/master/start.png?raw=true)
-![oas docs](https://github.com/sugarkubes/generators/blob/master/monkey.png?raw=true)
 
-## Features 🙉
+
+## Features 
 - Generates simple Nodejs code
 - Graphql and Rest out of the box
 - Uses Mongodb with Mongoose ORM
@@ -56,13 +46,13 @@ docker build -t myMonkeys:0.1.0 .
   - delete
 - Generates GraphQL apis for both query and mutation
 
-## What it's good at 🙊
+## What it's good at 
 
 - Generating an initial API
 - Microservice oriented
 - Ready to deploy (build with docker => deploy)
 
-## What it's not good at (yet) 🙈
+## What it's not good at (yet) 
 
 - idempotent changes (i.e. it doesn't know if you wrote code in there or changed things around)
 - working with modified code
@@ -74,7 +64,7 @@ docker build -t myMonkeys:0.1.0 .
 
 
 ### API
-- ~~basic generator rest tests~~
+
 - graphql tests
 - other databases?
 - **your ideas?**
@@ -83,9 +73,6 @@ docker build -t myMonkeys:0.1.0 .
 
 ## Graphql support
 
-![graphql mutation](https://github.com/sugarkubes/generators/blob/master/graphql-mutation.png?raw=true)
-
-![graphql schema](https://github.com/sugarkubes/generators/blob/master/graphql-schema.png?raw=true)
 
 
 graphql is supported and gets created by default so you can choose between rest and graphql
