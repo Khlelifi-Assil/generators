@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sugarkubes/generators"
+    "url": "git+https://github.com/khelifi-assil/generators"
   },
   "bin": {
     "sugar-generate": "./index.js"
@@ -38,7 +38,7 @@
     "graphql",
     "apollo"
   ],
-  "author": "wrannaman",
+  "author": "khelifi Assil",
   "license": "MIT",
   "dependencies": {
     "argparse": "^1.0.10",
